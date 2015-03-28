@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="対戦をする場合、まず最初に対戦相手とのペアリングをしてください。" />
+ 
+    <Button
+        android:id="@+id/buttonb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Server" >
+    </Button>
+ 
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Client" >
+    </Button>
+        <Button
+        android:id="@+id/buttond"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="対戦スタート" >
+    </Button>
+    <Button
+        android:id="@+id/buttone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="点数同期" >
+    </Button>
+
+        <TextView
+            android:id="@+id/textmy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="あなたのスコア:0" />
+
+        <TextView
+            android:id="@+id/textyour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="あいつのスコア:0" />
+
+        <TextView
+            android:id="@+id/textwin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF0000"
+            android:textSize="50sp" />
+ 
+</LinearLayout>
